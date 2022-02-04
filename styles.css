@@ -1,0 +1,263 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "MS Pゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header {
+  background-image:url(../header.jpg);   /* 画像のURLを指定       */
+  background-repeat:  no-repeat;          /* 画像の繰り返しを指定  */              
+  width: auto;                            /* 横幅のサイズを指定    */
+  background-size: cover;
+  height:380px; 
+  width: 100%;
+  padding: 30px 8% 10px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  font-family: HiraMinProN-W6, sans-serif;
+}
+
+a {	
+  text-decoration: none;
+  color: #d6d1d1;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+li {
+  margin: 0 0 0 15px;
+  font-size: 14px;
+}
+
+nav {
+  margin: 0 0 0 auto;
+}
+
+
+body{
+  background-color:#D2B48C;
+}
+
+/* header {
+  height: 70px;
+  width: 100%;
+  background-color: black;
+  line-height: 10px;
+} */
+
+/* .rounded {
+  display: flex;
+  justify-content: right;
+}
+li {
+  list-style: none;
+}  */
+/* .button {
+  display      : inline-block;
+  border-radius: 10%;                   
+  transition   : 0.3s;
+} */
+
+/* .button:hover {
+  transform: scale(1.1,1.1);
+  } */
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: HiraMinProN-W6, sans-serif;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  color: #d6d1d1;
+  text-shadow: 5px 5px 3px #808080;
+}
+
+.insta img{
+  vertical-align: middle;
+  margin-right: 10px;
+  } 
+     .insta{
+       transition: 0.5s;
+       } 
+     .insta:hover {
+       transition: 0.5s;
+       transform: scale(1.1);
+       } 
+
+.SoundCloud img{
+  vertical-align: middle;
+  margin-right: 10px;
+  } 
+     .SoundCloud{
+       transition: 0.5s;
+       } 
+     .SoundCloud:hover {
+       transition: 0.5s;
+       transform: scale(1.1);
+       } 
+
+.Mixcloud img{
+    vertical-align: middle;
+    margin-right: 10px;
+  } 
+     .Mixcloud{
+       transition: 0.5s;
+       } 
+     .Mixcloud:hover {
+       transition: 0.5s;
+       transform: scale(1.1);
+       } 
+
+.Applemusic img{
+    vertical-align: middle;
+    margin-right: 10px;
+} 
+   .Applemusic{
+     transition: 0.5s;
+     } 
+   .Applemusic:hover {
+     transition: 0.5s;
+     transform: scale(1.1);
+     } 
+
+.Spotify img{
+  vertical-align: middle;
+  margin-right: 10px;
+} 
+   .Spotify{
+     transition: 0.5s;
+     } 
+   .Spotify:hover {
+     transition: 0.5s;
+     transform: scale(1.1);
+     } 
+
+
+.img_center {
+  margin-top:  120px;
+  text-align: center;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.vmenu{
+  display: block;
+  font-size: 30px;
+  font-family: HiraMinProN-W6, sans-serif;
+  line-height: 60px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+
+nav li:hover{
+  opacity: 0.5;
+}
+
+#img_center2 {
+  text-align: center;
+}
+
+
+
+.contact{
+  /* margin:0 auto; */
+  text-align: center;
+  font-size: 20px;
+  font-family: HiraMinProN-W6, sans-serif;
+  margin-bottom: 50px;
+  margin-top: 150px;
+  color: #550000;
+  text-shadow: 5px 5px 3px #808080;
+}
+
+.contact_2{
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  font-family: HiraMinProN-W6, sans-serif;
+  color: #550000;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.dm{
+  /* text-shadow: 4px 4px 2px #999797; */
+  transition: 0.5s;
+}
+.dm:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
+  } 
+.gmail{
+  /* text-shadow: 4px 4px 2px #999797; */
+  /* text-decoration: underline; */
+  color: #550000;
+  transition: 0.5s;
+}
+.gmail:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
+  } 
+
+
+.contact_3{
+  text-align: center;
+  font-size: 15px;
+  font-family: HiraMinProN-W6, sans-serif;
+  color: white;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+
+
+
+
+
+.back{
+  text-decoration: none;
+  transition: color 1s;
+  font-size: 15px;
+  color: black;
+  font-family: HiraMinProN-W6, sans-serif;
+} 
+
+.top{
+text-align: center;
+margin-top: 150px;
+margin-bottom: 50px;
+} 
+
+a:hover{
+  opacity: 0.5;
+}
+
+
+.copy{
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-size: 7px;
+  } 
+
+footer {
+  height: 70px;
+  width: 100%;
+  background-color: black;
+  line-height: 10px;
+}
