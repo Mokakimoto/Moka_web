@@ -10,7 +10,7 @@ body {
 }
 
 header {
-  background-image:url(../header.jpg);   /* 画像のURLを指定       */
+  background-image:url(./header.jpg);   /* 画像のURLを指定       */
   background-repeat:  no-repeat;          /* 画像の繰り返しを指定  */              
   width: auto;                            /* 横幅のサイズを指定    */
   background-size: cover;
